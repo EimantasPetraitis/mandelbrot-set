@@ -1,6 +1,8 @@
 # mandelbrot-set
 
-A Python program to generate static images of the Mandelbrot set using the "escape time" algorithm. The colors of the pixels outside the Mandelbrot set are determined using a simplified HSV to RGB conversion.
+A Python program to generate static images of the Mandelbrot set using the "escape time" algorithm. The colors of pixels outside the set itself are determined using a simplified HSV to RGB conversion.
+
+![A 2048x2048 rendering of the Mandelbrot set](https://github.com/EimantasPetraitis/mandelbrot-set/blob/main/Mandelbrot%20Set%202048x2048.png?raw=true)
 
 Note that the method used is unoptimized and rather slow. On a 9th Gen Intel Core i7, images took the following times to generate:
 
